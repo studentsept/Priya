@@ -69,7 +69,7 @@ function draw() {
   //Engine.update(engine);
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
-  fill("pink");
+  fill("green");
   text("Drag the polygon to destroy the blocks",300,30);
   textSize(15);
   fill(255);
@@ -79,7 +79,7 @@ function draw() {
   stand2.display();
   strokeWeight(2);
   stroke(15);
-  fill("skyblue");
+  fill("blue");
   block1.display();
   block2.display();
   block3.display();
@@ -87,13 +87,13 @@ function draw() {
   block5.display();
   block6.display();
   block7.display();
-  fill("pink");
+  fill("red");
   block8.display();
   block9.display();
   block10.display();
   block11.display();
   block12.display();
-  fill("turquoise");
+  fill("yellow");
   block13.display();
   block14.display();
   block15.display();
@@ -105,7 +105,7 @@ function draw() {
   blocks3.display();
   blocks4.display();
   blocks5.display();
-  fill("turquoise");
+  fill("black");
   blocks6.display();
   blocks7.display();
   blocks8.display();
