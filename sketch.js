@@ -69,9 +69,10 @@ function draw() {
   //Engine.update(engine);
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
-  fill("lightyellow");
+  fill("pink");
   text("Drag the polygon to destroy the blocks",300,30);
-  textSize(10);
+  textSize(15);
+  fill(255);
   text("Press Space to get a second Chance to Play!!",650 ,350);
   ground.display();
   stand1.display();
